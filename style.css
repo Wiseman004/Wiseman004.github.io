@@ -224,6 +224,8 @@ p {
     text-align: center;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.027) 0px 1px 1px;
+    margin-left: 8px;
+    margin-right: 8px;
 
 }
 
@@ -284,20 +286,22 @@ p {
 }
 
 .container-statistics img {
-
     width: 33px;
     height: 33px;
-
     margin-right: 11px;
 }
 
 .container-statistics {
     display: flex;
 }
-
-.statistics-padding {
-    padding-bottom: 28px;
+.members-event{
+    display: block;
 }
+.statistics-padding {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
 
 .green-text {
     font-size: 15px;
@@ -485,8 +489,9 @@ p {
     .allStatistics {
         padding: 30px 80px 30px 80px;
     }
+
     .clients{
-        padding: 0 80px 0 80px;
+        padding: 12px 80px 12px 80px;
     }
     .photo-laptop {
         display: block;
@@ -541,6 +546,8 @@ p {
     }
     .members-event{
         padding-top: 25px;
+        display: flex;
+        justify-content: space-between;
     }
     .logoClients {
         padding: 11px 50px 28px 50px;
@@ -559,7 +566,7 @@ p {
 
     }
     .clients{
-        padding: 0 50px 0 50px;
+        padding: 12px 50px 12px 50px;
     }
     .footer {
         padding: 30px 50px 30px 50px;
@@ -605,11 +612,11 @@ p {
     }
 
     .allStatistics {
-        padding: 30px 25px 30px 25px;
+        padding: 30px 15px 30px 15px;
 
     }
     .clients{
-        padding: 0 25px 0 25px;
+        padding: 12px 25px 12px 25px;
     }
     .bigTitle{
         font-size: 25px;
